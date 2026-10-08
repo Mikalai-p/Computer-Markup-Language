@@ -1,0 +1,7 @@
+<xs:element name="watch">
+<xs:complexType>
+<xs:sequence>
+<xsd:element name="author" type="xs:string">
+<xsd:element name="country" type="xs:string">
+<xsd:element name="title" type="xs:string">
+<xsd:element name="books" type="xs:string"> 

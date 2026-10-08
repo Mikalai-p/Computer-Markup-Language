@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат выполнения задания 4</title>
+    <style>
+        .rectangle {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            float: left;
+        }
+        .first {
+            border: 2px solid black;
+            background: linear-gradient(to bottom, #1a0acb, #ff0000);
+        }
+        .second { 
+            border: 2px solid black;
+  background: repeating-linear-gradient(
+    45deg,
+    red,
+    red 5px,
+    blue 5px,
+    blue 10px
+  );
+}
+        
+        .third {
+            border: 2px solid black;
+            background-image: radial-gradient(yellow, green)
+        }
+        .fourth {
+            border: 2px solid black;
+            background: repeating-radial-gradient(
+    green,
+    green 5px,
+    yellow 5px,
+    yellow 10px
+  );
+        }
+.fifth{
+    background-image: radial-gradient(circle, yellow, green,  transparent, transparent),
+    linear-gradient(to bottom, rgb(0, 0, 255), rgb(128, 0, 128));
+opacity: 0.8;   
+}
+    </style>
+</head>
+<body>
+    <div class="rectangle first"></div>
+    <div class="rectangle second"></div>
+    <div class="rectangle third"></div>
+    <div class="rectangle fourth"></div>
+    <div class="rectangle fifth"></div>
+    <h1>Карта изображений</h1>
+    <img src="c:\Users\nikol\Downloads\a9e2595d38dfcee70382d34f0116d91f.jpg" alt="Map of City" usemap="#citymap">
+    
+    <map name="citymap">
+        <area  shape="rect" coords="300, 450, 650, 475" href="c:\Users\nikol\Downloads\6081895251.jpg" alt="Image 1">
+        <area  shape="rect" coords="325, 275, 385, 300" href="c:\Users\nikol\Downloads\d5666d82-7b8d-538d-8192-740123a267a8.jpeg" alt="Image 2">
+        <area  shape="rect" coords="0, 0, 75, 440" href="c:\Users\nikol\Downloads\d5666d82-7b8d-538d-8192-740123a267a8.jpeg" alt="Image 3">
+        <area shape="rect" coords="150, 175, 305, 390" href="c:\Users\nikol\Downloads\d5666d82-7b8d-538d-8192-740123a267a8.jpeg" alt="Image 4">
+    </map>
+</body>
+</html>
+

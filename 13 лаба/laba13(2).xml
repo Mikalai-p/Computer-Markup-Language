@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="main1.css"?>
+
+
+<body>
+<head>
+<lesson>Имя студента</lesson>
+<lesson>Мат Анализ</lesson>
+<lesson>ОПИ</lesson>
+<lesson>ОАИП</lesson>
+<lesson>Англ яз</lesson>
+<lesson>Бел яз</lesson>
+<lesson>Лин ал</lesson>
+</head>
+<student>
+<name>Артёменко В.</name>
+<mark4>3</mark4>
+<mark4>3</mark4>
+<mark>6</mark>
+<mark>7</mark>
+<mark>7</mark>
+<mark>4</mark>
+</student>
+<student>
+<name>Бондаренко И.</name>
+<mark>5</mark>
+<mark4>3</mark4>
+<mark4>4</mark4>
+<mark>5</mark>
+<mark8>8</mark8>
+<mark4>4</mark4>
+</student>
+<student>
+<name>Вилюха Т.</name>
+<mark>5</mark>
+<mark>6</mark>
+<mark8>9</mark8>
+<mark>6</mark>
+<mark>7</mark>
+<mark>5</mark>
+</student>
+<student>
+<name>Герасимович А.</name>
+<mark>6</mark>
+<mark>6</mark>
+<mark>5</mark>
+<mark8>8</mark8>
+<mark8>9</mark8>
+<mark>7</mark>
+</student>
+<student>
+<name>Граховская К.</name>
+<mark4>4</mark4>
+<mark8>8</mark8>
+<mark>5</mark>
+<mark>5</mark>
+<mark4>4</mark4>
+<mark>7</mark>
+</student>
+<student>
+<name>Живулько Г.</name>
+<mark8>8</mark8>
+<mark>5</mark>
+<mark>6</mark>
+<mark4>2</mark4>
+<mark>7</mark>
+<mark4>4</mark4>
+</student>
+<student>
+<name>Киселев М.</name>
+<mark8>8</mark8>
+<mark4>3</mark4>
+<mark8>9</mark8>
+<mark8>10</mark8>
+<mark8>9</mark8>
+<mark4>4</mark4>
+</student>
+<student>
+<name>Лавшук С.</name>
+<mark8>8</mark8>
+<mark>5</mark>
+<mark>7</mark>
+<mark4>3</mark4>
+<mark4>2</mark4>
+<mark8>8</mark8>
+</student>
+<student>
+<name>Пинчук Н.</name>
+<mark>7</mark>
+<mark8>8</mark8>
+<mark>7</mark>
+<mark>7</mark>
+<mark8>9</mark8>
+<mark8>8</mark8>
+</student>
+<student>
+<name>Скребец И.</name>
+<mark8>8</mark8>
+<mark>5</mark>
+<mark8>8</mark8>
+<mark>6</mark>
+<mark4>3</mark4>
+<mark4>4</mark4>
+</student>
+<student>
+<name>Угляница Д.</name>
+<mark8>8</mark8>
+<mark>5</mark>
+<mark4>4</mark4>
+<mark8>8</mark8>
+<mark4>3</mark4>
+<mark8>9</mark8>
+</student>
+<student>
+<name>Чижик А.</name>
+<mark8>9</mark8>
+<mark8>8</mark8>
+<mark>7</mark>
+<mark>6</mark>
+<mark>5</mark>
+<mark4>4</mark4>
+</student>
+<student>
+<name>Шикуть М.</name>
+<mark4>3</mark4>
+<mark>6</mark>
+<mark>5</mark>
+<mark>7</mark>
+<mark8>8</mark8>
+<mark8>9</mark8>
+</student>
+</body>

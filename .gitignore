@@ -1,0 +1,20 @@
+# Office temp files
+~$*
+*.tmp
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
+
+# Архивы (на всякий случай)
+*.zip
+*.rar
+*.7z

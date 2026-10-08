@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание 1</title>
+        <style>
+            h1{
+    text-align: center;
+    animation-name: h1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   
+}
+@keyframes h1 {
+    0% {opacity: 0%;}
+    50%{opacity: 80%;}
+    100%{opacity: 0%;}}
+
+.photo1{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+.photo2{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+.photo3{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+.photo4{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение1]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение1]:hover{
+transform: scale(0.5);
+}
+img[alt=Изображение2]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение2]:hover{
+    transform: rotate(45deg);
+}
+img[alt=Изображение3]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение3]:hover{
+    transform: translate(50px);
+}
+img[alt=Изображение4]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение4]:hover{
+    transform: skew(-20deg);
+}
+button[class=start]{
+color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=start]:hover{
+    background-color: black;
+    color: white;
+}
+button[class=iron]{
+    color: black;
+    box-shadow: none;
+    width: 100px;
+    height: 50px;
+}
+button[class=iron]:hover{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow:0 0 0 2px yellow, 0 0 0 4px red ;
+}
+button[class=gold]{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=gold]:hover{
+    color: black;
+    background-color: white;
+    border-left: white;
+    border-right: white;
+    border-top:3px solid green;
+    border-bottom: 3px solid green;
+}
+button[class=silver]{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=silver]:hover{
+    color: black;
+    background-color: white;
+    border-top: white;
+    border-bottom: white;
+    border-right:3px solid blue;
+    border-left: 3px solid blue;
+}
+button[class=end]{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=end]:hover{
+    color: black;
+    background-image: radial-gradient(yellow,rgb(248, 85, 85), rgb(255, 0, 208), rgb(167, 3, 167), aqua);
+}
+        </style>
+        </head>
+        <body>
+            <h1>Задание 1 и 2</h1>
+            <img class="photo1" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение1">
+            <img class="photo2" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение2">
+            <img class="photo3" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение3">
+            <img class="photo4" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение4">
+            <p></p>
+            <button type="submit" class="start">Начало</button>
+            <button type="submit" class="iron">Железо</button>
+            <button type="submit" class="gold">Золото</button>
+            <button type="submit" class="silver">Серебро</button>
+            <button type="submit" class="end">Конец</button>
+        </body>
+</html>

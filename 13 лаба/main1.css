@@ -1,0 +1,40 @@
+/*# sourceMappingURL=main.css.map */
+
+main {
+    display: block;
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 20px;
+  }
+  student, head {
+    display: table-row;
+    border: 2px solid;
+  }
+  mark4{
+    background-color: red;
+  }
+  mark8{
+    background-color: green;
+  }
+  lesson {
+    display: table-cell;
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    background: #ff7b00;
+  }
+  mark, mark4, mark8 {
+    font-weight: 700;
+    text-align: center;
+    display: table-cell;
+    border: 2px solid ;
+    padding: 5px;
+  }
+  
+  title {
+    font-weight: 700;
+  }
+  
+  author {
+    text-transform: uppercase;
+  }

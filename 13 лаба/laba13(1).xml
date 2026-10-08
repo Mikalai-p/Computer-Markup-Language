@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="main.css"?>
+
+
+<books>
+<head>
+<nauthor>Бренд</nauthor>
+<ntitle>Страна производитель</ntitle>
+<ntitle>цена</ntitle>
+</head>
+<watch1>
+<author>MAURICE LACROIX</author>
+<country>Швейцария</country>
+<title>1 301 Руб</title>
+</watch1>
+<watch2>
+<author>CANDINO</author>
+<country>Швейцария</country>
+<title>1 827 Руб</title>
+</watch2>
+<watch3>
+<author>Frederique Constant</author>
+<country>Швейцария</country>
+<title>1 895 Руб</title>
+</watch3>
+
+<watch5>
+<author>Citizen</author>
+<country>Япония</country>
+<title>11 954 Руб</title>
+</watch5>
+<watch4>
+<author>Tous</author>
+<country>Испания</country>
+<title>4 279 Руб</title>
+</watch4>
+</books>

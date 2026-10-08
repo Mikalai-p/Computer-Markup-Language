@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расписание</title>
+    <style>
+        table{
+            border-style: solid;
+            border-width: 4px;
+            border-color: black;
+            border-collapse: collapse;
+            flex-direction: column;
+        }
+        th{
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+        }
+        td{
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+        }
+        span{
+            color:red;
+        }
+        .go {
+            height: 10px;
+            width: 400px;
+        }
+        .thefirst{
+            background-color: gold;
+        }
+        .info{ 
+            background-color: pink;
+           text-orientation: upright;
+           writing-mode: vertical-lr;
+           letter-spacing: 0.1px;
+        }
+        .infof{
+            text-orientation: upright;
+           writing-mode: vertical-lr;
+           letter-spacing: 0.1px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+<tr>
+    <th colspan="7">Пинчук Николай Александрович, курс—1, группа—7, подгруппа—2</th>
+</tr>
+<tr class="thefirst">
+    <th>День</th>
+    <th>Часы</th>
+    <th colspan="2">7 ПИ</th>
+    <th>День</th>
+    <th>Часы</th>
+</tr>
+<tr>
+    <td class="info" rowspan="5">Понедельник</td>
+    <td>14.40 — 16.05</td>
+    <td colspan="2"><span>пз</span> 423-4 Белорусский язык</td>
+    <td class="infof" rowspan="5">Понедельник</td>
+    <td>14.40 — 16.05</td>
+</tr>
+<tr>
+    <td>16.25 — 17.50</td>
+    <td colspan="2"><span>лр</span> 204-1 Основы программной инженерии</td>
+    <td>16.25 — 17.50</td>
+</tr>
+<tr>
+    <td>18.00 — 19.25</td>
+    <td colspan="2"><span>лк</span> 200-3а Математический анализ</td>
+    <td>18.00 — 19.25</td>
+</tr>
+<tr>
+    <td rowspan="2">19.35 — 21.00</td>
+    <td class="go" colspan="2"></td>
+    <td rowspan="2">19.35 — 21.00</td>
+    </tr>
+    <tr>
+    <td colspan="2"><span>лк</span> 200-3а Коррупция и её общественная опасность</td>
+</tr>
+<tr>
+<td class="info" rowspan="4">Вторник</td>
+    <td>14.40 — 16.05</td>
+    <td colspan="2"><span>лк</span> 200-3а Основы алгоритмизации и программирования</td>
+    <td class="infof" rowspan="4">Вторник</td>
+    <td>14.40 — 16.05</td>
+</tr>
+    <tr>
+        <td>16.25 — 17.50</td>
+    <td colspan="2"><span>лк</span> 200-3а Линейная алгебра и аналитическая геометрия</td>
+    <td>16.25 — 17.50</td>
+    </tr>
+    <tr>
+        <td>18.00 — 19.25</td>
+    <td colspan="2"><span>пз</span> 308-2 Математический анализ</td>
+    <td>18.00 — 19.25</td>
+    </tr>
+    <tr>
+        <td>19.35 — 21.00</td>
+    <td colspan="2">13.00 Физическая культура</td>
+    <td>19.35 — 21.00</td>
+    </tr>
+    <tr>
+        <td class="info" rowspan="5">Среда</td>
+    <td rowspan="2">14.40 — 16.05</td>
+    <td colspan="2"><span>пз</span> 502-1 Арифм-логич вычислительных машин</td>
+    <td class="infof" rowspan="5">Среда</td>
+    <td rowspan="2">14.40 — 16.05</td>
+    </tr>
+    <tr>
+        <td colspan="2"><span>пз</span> 232-4 Математический анализ</td>
+    </tr>
+    <tr>
+        <td>16.25 — 17.50</td>
+    <td colspan="2"><span>лк</span> 100-3а Математический анализ</td>
+    <td>16.25 — 17.50</td>
+    </tr>
+    <tr>
+        <td>19.35 — 21.00</td>
+    <td colspan="2"></td>
+    <td>19.35 — 21.00</td>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+    <td class="info" rowspan="4">Четверг</td>
+    <td>14.40 — 16.05</td>
+    <td colspan="2"><span>лк</span> 100-3а Компьютерные языки разметки</td>
+    <td class="infof" rowspan="4">Четверг</td>
+    <td>14.40 — 16.05</td>
+    </tr>
+    <tr>
+        <td>16.25 — 17.50</td>
+    <td colspan="2"><span>пз</span> 222-2 общ. Английский язык</td>
+    <td>16.25 — 17.50</td>
+    </tr>
+    <tr>
+        <td>18.00 — 19.25</td>
+    <td colspan="2"><span>лр</span> 206-1 Компьютерные языки разметки</td>
+    <td>18.00 — 19.25</td>
+    </tr>
+    <tr>
+    <td>19.35 — 21.00</td>
+    <td colspan="2"></td>
+    <td>19.35 — 21.00</td>
+    </tr>
+    <tr>
+        <td class="info" rowspan="4">Пятница</td>
+        <td>14.40 — 16.05</td>
+        <td colspan="2"><span>пз</span> 308а-4 Лин. алгебра и аналит. геометрия</td>
+        <td class="infof" rowspan="4">Четверг</td>
+        <td>14.40 — 16.05</td>
+        </tr>
+        <tr>
+            <td>16.25 — 17.50</td>
+        <td colspan="2"><span>пз</span> 222-2 общ. Английский язык</td>
+        <td>16.25 — 17.50</td>
+        </tr>
+        <tr>
+            <td>18.00 — 19.25</td>
+        <td colspan="2"><span>лк</span> 200-3а Основы программной инженерии</td>
+        <td>18.00 — 19.25</td>
+        </tr>
+        <tr>
+            <td>19.35 — 21.00</td>
+            <td colspan="2"></td>
+            <td>19.35 — 21.00</td>
+            </tr>
+            <tr>
+            <td class="info" rowspan="3">Суббота</td>
+        <td>11.25 — 12.50</td>
+        <td colspan="2"></td>
+        <td class="infof" rowspan="3">Суббота</td>
+        <td>11.25 — 12.50</td>
+        </tr>
+        <tr>
+            <td>13.00 — 14.25</td>
+            <td colspan="2"><span>лр</span> 310а-1 Оаип</td>
+            <td>13.00 — 14.25</td>
+        </tr>
+        <tr>
+            <td>14.40 — 16.05</td>
+            <td colspan="2"><span>лк</span> 100-3а Арифм-логич основы вычислительных машин</td>
+      <td>14.40 — 16.05</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<store>
+    <products>
+        <product>
+            <id>1</id>
+            <name>MAURICE LACROIX</name>
+            <price>1301</price>
+            <country>Швейцария</country>
+        </product>
+        <product>
+            <id>2</id>
+            <name>CANDINO</name>
+            <price>1827</price>
+            <country>Швейцария</country>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Frederique Constant</name>
+            <price>1895</price>
+            <country>Швейцария</country>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Citizen</name>
+            <price>11954</price>
+            <country>Япония</country>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Tous</name>
+            <price>4279</price>
+            <country>Испания</country>
+        </product>
+    </products>
+</store>

@@ -1,0 +1,99 @@
+        <!DOCTYPE html>
+        <html lang="ru">
+                <head>
+<meta charset="UTF-8">
+<title>block</title>
+<style>
+.block1{
+        border-top: 3px solid orange;
+            border-right: 3px solid darkblue;
+            border-bottom: 3px solid brown;
+            border-left: 3px solid yellow;
+        }
+.block2{
+        border-left: 3px solid #007BA7;
+            border-right: 3px solid #007BA7;
+        }
+.block3{
+        border-top: 3px solid rgb(229, 43, 80);
+            border-left: 3px dashed blue;
+            border-right: 3px dashed blue;
+            border-bottom: 3px dashed blue;
+}
+.block4{
+        border: 1px dotted orange;
+}
+.block5{
+        border-top: 2px solid darkslateblue;
+            border-bottom: 2px solid darkslateblue;
+            border-left: 2px dotted maroon;
+            border-right: 2px dotted maroon;
+        }
+.block6{
+        border-style:double;
+        border-color: #B3446C;
+        border-width: 6px;
+}
+.block7{
+        border-top: 1px dotted #808000;
+        border-bottom: 3px solid #FF7518;
+}
+.block8{
+        border-left: 6px double #CC7722;
+            border-bottom: 6px double #CC7722;
+            border-left-width: 6px;
+            border-bottom-width: 6px;
+}
+.block9{
+        border-right: 2px ridge #B5A642;
+        border-top: 2px ridge #B5A642;
+}
+.block10{
+        border-left: 5px dotted #002800;
+            border-right: 5px dotted #002800;
+            border-bottom: 5px dotted #002800;
+}
+.block11{
+        display: inline-flex;
+        align-items:start;
+        width:70px;
+        height:70px;
+        justify-content: center;
+        border-style:solid;
+        border-color:rgb(0,0,0);
+        border-width:4px;
+        font-size:1em;
+        margin:2px;
+        box-sizing: border-box;
+        }
+        .block12{
+                display: inline-flex;
+                align-items:start;
+                width:62px;
+                height:62px;
+                margin:2px;
+                justify-content: center;
+                border-style:solid;
+                border-color:rgb(0,0,0);
+                border-width:4px;
+                font-size:1em;
+                box-sizing: content-box;
+        }
+
+</style>
+                </head>
+        <body>
+        <p class="block1">Cплошная граница коричневого цвета слева, внизу желтая, справа темно-синяя, вверху оранжевая.</p>
+        <p class="block2">Слева и справа сплошная линия #007A7</p>
+        <p class="block3">Сплошную граница (229 43 80) сверху, и пунктирную границу голубого цвета слева, справа и снизу.</p>
+        <p class="block4">Точечная граница оранжевого цвета 1 пиксель</p>
+        <p class="block5">Граница темно-синего цвета толщиной 2 пикселя сверху и снизу и пунктирную границу  бордового цвета слева и справа</p>
+        <p class="block6">Двойная сплошная граница #3446C цвета</p> 
+        <p class="block7">Пунктирную границу #808000 цвета и толщиной 1 пиксель сверху и сплошную границу #FF7518 цвета толщиной 3 пикселя снизу.</p>
+        <p class="block8">Двойная сплошная граница #CC7722 цвета слева и внизу</p>
+        <p class="block9">Граница гребень #5A642 цвета справа и сверху</p>
+        <p class="block10">Точечная граница слева, справа, снизу толщиной 5px и (0 40 0) цвета</p>
+        <div class="block11">1</div>
+<div class="block12">2</div>
+</body>
+        </html>

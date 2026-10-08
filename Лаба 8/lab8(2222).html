@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание 1</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+.photo1{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+.photo2{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+.photo3{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+.photo4{
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение1]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение1]:hover{
+transform: scale(0.5);
+}
+img[alt=Изображение2]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение2]:hover{
+    transform: rotate(45deg);
+}
+img[alt=Изображение3]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение3]:hover{
+    transform: translate(50px);
+}
+img[alt=Изображение4]{
+    height: 200px;
+    width: 350px;
+}
+img[alt=Изображение4]:hover{
+    transform: skew(-20deg);
+}
+button[class=start]{
+color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=start]:hover{
+    background-color: black;
+    color: white;
+}
+button[class=iron]{
+    color: black;
+    box-shadow: none;
+    width: 100px;
+    height: 50px;
+}
+button[class=iron]:hover{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow:0 0 0 2px yellow, 0 0 0 4px red ;
+}
+button[class=gold]{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=gold]:hover{
+    color: black;
+    background-color: white;
+    border-left: white;
+    border-right: white;
+    border-top:3px solid green;
+    border-bottom: 3px solid green;
+}
+button[class=silver]{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=silver]:hover{
+    color: black;
+    background-color: white;
+    border-top: white;
+    border-bottom: white;
+    border-right:3px solid blue;
+    border-left: 3px solid blue;
+}
+button[class=end]{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button[class=end]:hover{
+    color: black;
+    background-image: radial-gradient(yellow,rgb(248, 85, 85), rgb(255, 0, 208), rgb(167, 3, 167), aqua);
+}
+.div01{
+    perspective : 50px;
+    display: inline-block;
+    margin: 30px;
+}
+.div1{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateX(5deg)
+   
+   
+   }
+   .div02{
+    perspective : 500px;
+    display: inline-block;
+    margin: 40px;
+}
+    .div2{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateY(20deg)
+
+}
+.div03{
+    perspective : 50px;
+    display: inline-block;
+    margin: 30px;
+}
+.div3{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateX(5deg)}
+.div04{
+    perspective : 500px;
+    display: inline-block;
+}
+    .div4{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateY(-20deg)
+
+}
+
+img{
+            height: 100px;
+            width: 200px;
+        }
+        .rr{
+    width: 500px;
+    height: 500px;
+    position: absolute; }
+.divv span {
+    position: absolute;
+}
+@keyframes c1 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(500px, 0);}
+    100%{ transform: translate(0px, 150px);}
+}
+.c1{
+    animation: c1 5s ease-in-out infinite ;
+}
+@keyframes c2 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(600px, 0);}
+    100%{ transform: translate(200px, 150px); filter: blur(10px);}
+}
+.c2{
+    animation: c2 5s ease-in-out infinite ;
+    margin-left: 10px;
+}
+@keyframes c3 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(700px, 0);}
+    100%{ transform: translate(400px, 150px); filter:grayscale(1);}
+}
+.c3{
+    animation: c3 5s ease-in-out infinite ;
+    margin-left: 20px;
+}
+@keyframes c4 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(800px, 0);}
+    100%{ transform: translate(600px, 150px); filter: invert(1);}
+}
+.c4{
+    animation: c4 5s ease-in-out infinite ;
+    margin-left: 30px;
+}
+@keyframes ex5_1 {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+#s5{
+    width: 500px;
+    margin: 0 auto;
+}
+#s5 img{
+    width: 400px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid aqua;
+}
+#i13 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+}
+#i14 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 1s;
+}
+#i15 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 2s;
+}
+#i16 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 3s;
+}
+#i17 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 4s;
+}
+.block134234{
+margin-top: 300px;
+}
+div{
+    margin: 35px;
+    }
+    .img1{
+        display: block;
+    animation-name: img1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    position: absolute;
+    } 
+    @keyframes img1 {
+        0% { left: 0; }
+        50% { left: 200px;}
+        100% {left: 0;}
+       }
+    .img2{
+        display: block;
+        animation-name: img2;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img2 {
+        0% { left: 250px; border-radius: none; }
+        50% { left: 1000px; border-radius: 50%; }
+        100% {left: 250px;border-radius: none;}
+       }
+    .img3{
+        display: block;
+        animation-name: img3;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        position: absolute;
+        overflow: hidden;
+    }
+    @keyframes img3 {
+        0%{left:-20%;
+  }
+  100%{left:100%;
+  }
+}
+
+   
+    .img4{
+        display: block;
+        animation-name: img4;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        position: relative;
+    }
+    @keyframes img4 {
+        0% { bottom: 0px; }
+        50% { bottom: 50px;}
+        100% {bottom: 0px;}
+       }
+    .img5{
+        display: block;
+        animation-name: img5;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        position: relative;
+    }
+    @keyframes img5 {
+        0% { left:0; top:0;}
+       25%{left:800px; top:0;}
+       50%{left: 800px; top:400px;}
+    75%{left:0; top:400px;}
+    100%{left:0; top:0;}
+    }
+    p{
+    margin: 20px;
+    padding: 2px;
+    color: #ea0a0a;
+    background: #ffffff;
+    border: 5px solid #7b1ed8;
+    width: 300px; 
+    height: 300px;
+   }
+   p:hover{
+    animation-name: phover;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    transition-timing-function:linear;
+    margin: 20px;
+    padding: 2px;
+    color: #ea0a0a;
+    background: #ffffff;
+    border: 5px solid #7b1ed8;
+    width: 300px; 
+    height: 300px;
+}
+    @keyframes phover {
+    0% {filter: hue-rotate(0deg);}
+    50%{filter: hue-rotate(200deg);}
+    100%{filter: hue-rotate(400deg);}
+   } 
+   ser{
+    margin-top: 20px;
+   }
+   ul>li {
+            display: inline-block;
+            list-style-type: none;
+            border: 3px;
+            border-width: 20px;
+            color: green;
+            background-color: yellow;
+            font-size: 20px;
+            border: 2px solid green;
+            height: 40px;
+            width: 200px;
+            text-align: center;
+            padding-top: 15px;
+            margin-right: -10px;
+        }
+
+        a:link {
+            color: green;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#name_link">Задание 1 и 2</a></li>
+            <li><a href="#ab">Задание 3</a></lI>
+            <li><a href="#abc">Задание 4</a></lI>
+            <li><a href="#abcd">Задание 5</a></lI>
+            <li><a href="#adb">Задание 6</a></lI>
+            <li><a href="#abcde">Задание 7</a></lI>
+        </ul>
+    </nav>
+            <h1><a id="name_link">Задание 1 и 2</a></h1>
+            <img class="photo1" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение1">
+            <img class="photo2" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение2">
+            <img class="photo3" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение3">
+            <img class="photo4" src="c:\Users\nikol\Downloads\е34.jpg" alt="Изображение4">
+            <button type="submit" class="start">Начало</button>
+            <button type="submit" class="iron">Железо</button>
+            <button type="submit" class="gold">Золото</button>
+            <button type="submit" class="silver">Серебро</button>
+            <button type="submit" class="end">Конец</button>
+            <h1><a id="ab">Задание 3</a></h1>
+    <div class="div01"><img src="c:\Users\nikol\Downloads\the-road-travelled-history-of-the-subaru-outback.webp"  class="div1"></div>
+     <div class="div02"><img src="c:\Users\nikol\Downloads\baad811a8276181737942bcdc62dfef6.jpeg" class="div2" ></div>
+     <div class="div03"><img src="c:\Users\nikol\Downloads\cda7312464e2c1f7afb2e871c6c439b2.png" class="div3"></div>
+    <div class="div04"> <img src="c:\Users\nikol\Downloads\7d31f65d2ae3760f63e5de0b72324f09.jpg"  class="div4"></div>
+    <h1><a id="abc">Задание 4</a></h1>
+    <div class="divv">
+       <span>
+        <img src="c:\Users\nikol\Downloads\6081895251.jpg" class="c1">
+    </span>
+       <span>
+        <img src="c:\Users\nikol\Downloads\7d31f65d2ae3760f63e5de0b72324f09.jpg" class="c2">
+    </span>
+        <span>
+            <img src="c:\Users\nikol\Downloads\baad811a8276181737942bcdc62dfef6.jpeg" class="c3">
+        </span>
+        <span>
+            <img src="c:\Users\nikol\Downloads\3226ab845ce145b4508d0d6d9a2b4f23.jpg" class="c4">
+        </span>
+    </div>
+    <div class="block134234">
+    <section id="s5">
+        <h1><a id="abcd">Задание 5</a></h1>
+        <img id="i13" src="c:\Users\nikol\Downloads\baad811a8276181737942bcdc62dfef6.jpeg" alt="Изображение 1">
+        <img id="i14" src="c:\Users\nikol\Downloads\cda7312464e2c1f7afb2e871c6c439b2.png" alt="Изображение 2">
+        <img id="i15" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg" alt="Изображение 3">
+        <img id="i16" src="c:\Users\nikol\Downloads\429d9688bc52ddb106f9024b07a83c38.jpg" alt="Изображение 4">
+        <img id="i17" src="c:\Users\nikol\Downloads\528b6eeb16a745065373219818897f06.jpg" alt="Изображение 5">
+    </section>
+        </div>
+        <div class="block134234">
+        <h1 id="adb">Задание 6</h1>
+    <img class="img1" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg"  width="200" height="100">
+    <img class="img2" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg"  width="200" height="100">
+    <img class="img3" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg"  width="200" height="100">
+    <img class="img4" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg"  width="200" height="100">
+    <img class="img5" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg"  width="200" height="100"> 
+</div><div class="block134234">
+        <h1><a id="abcde">ЗАДАНИЕ 7</a></h1> 
+        <div class="box">
+        <p>I'm having a great time here in Sydney. The different sports are exciting, and there are lots of other exciting things too. For example the mascots are really great!
+             They are called Olly, Syd and Millie. They are Australian ' animals and they are the symbols of the Sydney Games. The kookaburra is an Australian bird. She got her
+              name, Olly, from the word 'Olympics'. She's a symbol of friendship and honesty. Then there's Syd (from Sydney). He's a platypus with a duck's nose. He's the symbol
+               of the city of Sydney and its people. The third mascot is Millie. She's an Australian animal - an echidna.She's an Australian animal - an echidna. She's the
+                symbol of the new millennium. 
+        </p></div>
+    </div>
+        </body>
+</html>

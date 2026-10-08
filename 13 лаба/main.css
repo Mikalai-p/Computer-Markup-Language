@@ -1,0 +1,48 @@
+/*# sourceMappingURL=main.css.map */
+
+books {
+  display: block;
+  border-collapse: collapse;
+  margin: 10px;
+  font-size: 20px;
+}
+ head, watch1, watch2, watch3, watch4, watch5{
+  display: table-caption;
+}
+watch1{
+  order:1;
+}
+
+watch2{
+  order:2;
+}
+watch3{
+  order:3;
+}
+watch4{
+  order:4;
+}
+watch5{
+  order:5;
+}
+ntitle, nauthor {
+  display: table-cell;
+  border: 2px solid;
+  padding: 5px;
+  text-align: center;
+  background: #ff7b00;
+}
+country, author, title  {
+  display: table-cell;
+  border: 2px solid ;
+  padding: 5px;
+}
+
+title {
+  font-weight: 700;
+}
+
+
+author {
+  text-transform: uppercase;
+}

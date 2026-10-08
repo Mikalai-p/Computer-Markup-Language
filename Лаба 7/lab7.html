@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 5</title>
+    <style>
+            h1{
+        text-align: center;
+        animation-name: h1;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+       font-size:3em;
+    }
+    @keyframes h1 {
+        0% {opacity: 0%;}
+        50%{opacity: 80%;}
+        100%{opacity: 0%;}
+    }
+@keyframes ex5_1 {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+#s5{
+    width: 500px;
+    margin: 0 auto;
+}
+#s5 img{
+    width: 400px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid aqua;
+}
+#i13 {
+    animation: ex5_1 5s infinite linear;
+    position: relative;
+    left: 50%;
+}
+#i14 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 1s;
+}
+#i15 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 2s;
+}
+#i16 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 3s;
+}
+#i17 {
+    animation: ex5_1 5s infinite linear;
+    position: absolute;
+    left: 50%;
+    animation-delay: 4s;
+}
+</style>
+</head>
+<section id="s5">
+    <h1>Задание 5</h1>
+    <img id="i13" src="c:\Users\nikol\Downloads\baad811a8276181737942bcdc62dfef6.jpeg" alt="Изображение 1">
+    <img id="i14" src="c:\Users\nikol\Downloads\cda7312464e2c1f7afb2e871c6c439b2.png" alt="Изображение 2">
+    <img id="i15" src="c:\Users\nikol\Downloads\e1eacdfe512127a9a9fff3b287d2cca9.jpg" alt="Изображение 3">
+    <img id="i16" src="c:\Users\nikol\Downloads\429d9688bc52ddb106f9024b07a83c38.jpg" alt="Изображение 4">
+    <img id="i17" src="c:\Users\nikol\Downloads\528b6eeb16a745065373219818897f06.jpg" alt="Изображение 5">
+</section>

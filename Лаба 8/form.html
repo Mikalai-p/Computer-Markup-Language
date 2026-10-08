@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <style>
+        body{
+            font-size: 1.2em;
+            max-width: 550px;
+            margin: 0px auto;
+        }
+        .form-container{
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+                }
+                label {
+            display: inline-block;
+            font-weight: none;
+            margin-bottom: 4px;
+        }
+        input{
+            display: inline-block;
+            font-weight: none;
+        }
+        input[type=text]{
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+        }
+        input[type=text]:hover {
+            background-color: #e7e7e7;
+            color: black;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+        .indigo{
+            background-color: indigo;
+        }
+        .white{
+           color: white;
+        }
+        .purp{
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            margin-left: 10px;
+            width: 250px;
+            border-radius: 5px 5px;
+            margin-left: 150px;
+        }
+        .purpe{
+            width: 250px;
+            border-radius: 5px 5px;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            margin-left: 190px;
+        }
+        .purpo{
+            width: 250px;
+            border-radius: 5px 5px;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            margin-left: 148px;
+        }
+        .purpel{
+            width: 250px;
+            border-radius: 5px 5px;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            margin-left: 124px;
+        }
+        .purpelp{         
+            margin-left: 200px;
+        }
+        .pup{
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            color: rgba(255, 255, 255, 1);
+           background-color: rgba(255, 255, 255, .5);
+            width: 250px;
+            border-radius: 5px 5px;
+            margin-left: 182px;
+        }
+        .pu{
+            width: 250px;
+            border-radius: 5px 5px;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            margin-left: 66px;
+        }
+        .p{
+            width: 150px;
+            margin-left: 32px; 
+        }
+        .pupe{
+            width: 150px;
+            margin-left: 96px;   
+        }
+        .blue{
+            background-color: navy;
+            height: 35px;
+            width: 150px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-left: 240px;
+            color: white;
+            box-shadow: 0 0 4px white;
+        }
+        .blu{
+            background-color: navy;
+            height: 35px;
+            width: 100px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: white;
+            box-shadow: 0 0 4px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="/register" method="post" class="indigo">
+            <h1 class="white">Регистрация постоянного клиента</h1>
+            <br><label for="first_name" class="white">Фамилия:</label>
+            <input class="purp" type="text" id="first_name" name="first_name" required></br>
+            <br><label for="last_name" class="white">Имя:</label>
+            <input class="purpe" type="text" id="last_name" name="last_name"  required></br>
+            <br><label for="patronymic" class="white">Отчество:</label>
+<input class="purpo" type="text" id="patronymic" name="patronymic" required>
+</br>
+            <br><label for="age" class="white">Ваш возраст:</label>
+            <input class="purpel" type="number" id="age" name="age" min="1" required>
+            </br>
+            <br><label for="gender" class="white">Пол:</label>
+            <input class="purpelp" type="checkbox" id="agreement" name="agreement" required><span class="white">мужской</span>
+        <input type="checkbox" id="agreement" name="agreement" required><span class="white">женский</span>
+        </br>
+            <br><label for="email" class="white">Email:</label>
+            <input class="pup" type="email" id="email" name="email" required>
+            </br>
+            <br><label for="address" class="white">Страна проживания:</label>
+            <input class="pu" type="text" id="address" name="address">
+            </br>
+            <br><label for="agreement" class="white">Откуда вы узнали о нас?</label>
+            <select class="p" name="locations">
+                <option>Выберите вариант</option>
+                <option>Соц. сети</option>
+                <option>Газета</option>
+            </select></br>
+            <br><label class="white" for="agreement">Дата заполнения</label>
+            <input class="pupe" type="date" id="dateInput" required>
+            </br>
+            <button type="submit" class="blue">Регистрация</button>
+            <button type="submit" class="blu">Отмена</button>
+        </form>
+    </div>
+</body>
+</html>

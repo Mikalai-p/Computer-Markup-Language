@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Заказ</title>
+        <link rel="stylesheet" href="forma.css">
+    </head>
+    <body>
+        <main>
+            <h1>Данные студента</h1>
+            <form action="">
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" class="data">
+                <label for="person_name">Имя</label>
+                <input type="text" id="person_name" class="data"> 
+                <label for="phone">Телефон</label>
+                <input type="text" id="phone" class="data">
+                <label for="delivery">Факультет</label>
+                <select id="delivery">
+                    <option value="-">-</option>
+                    <option value="Факультет информационных технологий">Факультет информационных технологий</option>
+                    <option value="Лесоходяйственный факультет">Лесоходяйственный факультет</option>
+                    <option value="Факультет лесной инженерии">Факультет лесной инженерии</option>
+                    <option value="Факультет технологии органических веществ">Факультет технологии органических веществ</option>
+                </select>
+                <label for="delivery2">Группа</label>
+                <select id="delivery2">
+                    <option value="-">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="delivery3">Курс</label>
+                <select id="delivery3">
+                    <option value="-">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="2">4</option>
+                </select>
+                <label for="emai">Электронная почта</label>
+                <input type="email" id="emai" class="data">
+                <label for="adress">Адрес</label>
+                <input type="text" id="adress" class="data">
+                <input type="button" id="sub" value="Подтвердить"/>
+                <button type="reset">Отменить</button>
+            </form>
+        </main>
+        <footer id="output"></footer>
+    </body>
+    <script>
+        document.getElementById('sub').addEventListener('click', function(){
+            var surname = document.getElementById('surname').value;
+            var name = document.getElementById('person_name').value;
+            var phone = document.getElementById('phone').value;
+            var delivery = document.getElementById('delivery').value;
+            var delivery2 = document.getElementById('delivery2').value;
+            var delivery3 = document.getElementById('delivery3').value;
+            var email = document.getElementById('emai').value;
+            var adress = document.getElementById('adress').value;
+            var out = `<p>Фамилия: ${surname}</p>`;
+                out += `<p>Имя: ${name}</p>`;
+                out += `<p>Телефон: ${phone}</p>`;
+                out += `<p>Факультет: ${delivery}</p>`;
+                out += `<p>Группа: ${delivery2}</p>`;
+                out += `<p>Курс: ${delivery3}</p>`;
+                out += `<p>Электронная почта: ${email}</p>`;
+                out += `<p>Адрес: ${adress}</p>`;
+            document.getElementById('output').innerHTML= out;
+        })
+    </script>
+</html>

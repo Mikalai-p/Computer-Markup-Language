@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Блочная верстка</title>
+    <style>
+        .block1 {
+            border-style: outset;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            padding: 10px;
+            border-color: rgb(255, 0, 0);
+            border-width: 8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0,0,0);
+        }
+        .block2 {
+            border-style: dashed;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            padding: 10px;
+            border-color: rgb(0,255,0);
+            border-width: 8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0,0,0);
+           }
+        .block3{
+            border-style:dotted;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            padding: 10px;
+            border-color: rgb(0,0,155);
+            border-width: 8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0,0,0);
+        }
+        .block4{
+            border-style: double;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            border-color:rgb(0, 255, 255);
+            border-width:8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0, 0, 0);
+        }
+        .block5{
+            margin-top:10px;
+            border-style:groove;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            border-color:rgb(255, 0, 255);
+            border-width:8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0,0,0);
+        }
+        .block6 {
+            margin-top:10px;
+            border-style:inset;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            border-color:rgb(255, 255, 0);
+            border-width:8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0,0,0);
+        }
+        .block7{
+            margin-top:10px;
+            border-style:solid;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            border-color: rgb(0,0,0);
+            border-width:8px;
+            box-sizing: border-box;
+            font-size: 2em;
+            color: rgb(0, 0, 0);
+        }
+        span {
+            display: inline-block; /* Преобразуем span в блочный элемент */
+            margin: 5px;
+            padding: 5px;
+            background-color: #FFA500;
+            border: solid 5px #FF4500;
+        }
+        p{
+            margin:10px;
+        }
+        .paragraph1 {
+            width: 400px;
+            text-align: center;
+            border: solid 5px #FF7F50;
+        }
+        .paragraph2 {
+            border: solid 5px red;
+            box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 20px  40px;
+            overflow: auto;
+        }
+        .paragraph3 {
+            border: solid 5px #FF6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="block1">R</div>
+    <div class="block2">G</div>
+    <div class="block3">B</div>
+    <div class="block4">C</div>
+    <div class="block5">M</div>
+    <div class="block6">Y</div>
+    <div class="block7">K</div>
+    <p class="paragraph1"><span>Припять</span> протекает по территории Беларуси и Украины. Начало эта великая полесская река берёт из мелиоративного канала
+        в Любомльском районе на Волыни (Украина), южнее деревни Столинские Смоляры.
+Протекает Припять по территории Волынской, Ровенской и Киевской областей Украины, Брестской и Гомельской областей Беларуси.
+Это правый и самый большой приток Днепра. Протяжённость реки — 775 км.
+У истока русло реки не очень широкое, но оно постепенно расширяется до 40 м, в середине — от 50 до 70 м, ниже по течению
+ от 100 до 250 метров. В месте впадения Припяти в водохранилище близ Киева — ширина её составляет 4-5 километров.
+Дно реки песчаное и песчано-илистое. Река судоходна, по ней сплавляют лес. Ведётся любительское рыболовство.
+В реке водится большое разнообразие рыб. Это язь, лещ, щука, окунь, карась, ёрш, сазан, голавль, судак, сом и другие.</p>
+   <p class="paragraph2">Посредством <span>Днепро-Бугского</span> канала Припять соединяется с Мухавцем (притоком Западного Буга), а через Огинский
+        канал (сейчас он не действует) и Щару — с Неманом.
+На всём своём пути река принимает множество притоков, таких как Стырь, Стоход, Горынь, Уборть, Турья, Ясельда, Птичь, Лань,
+Случь, Ствига, Уж, Ипа, Вить и много других.</p>
+       <p class="paragraph3">Вниз по течению на реке в Беларуси стоят города (райцентры) Пинск, Мозырь, Петриков, Наровля, а на украинской территории
+        — прискорбные и безрадостные всем города Припять и <span>Чернобыль</span>.
+       Притоки эти и райцентры будут ниже, по течению Припяти, а здесь, на Волынщине, у её истока — это только канава.
+        Русло её здесь ещё канализировано, но река уже начинает приобретать выраженные очертания.</p>
+</body>
+</html>

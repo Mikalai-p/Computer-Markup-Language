@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>График Hm от Bm</title>
+    <style>
+        .chart {
+            width: 600px;
+            height: 400px;
+            border: 1px solid black;
+        }
+        path {
+            fill: none;
+            stroke: blue;
+            stroke-width: 2;
+        }
+        circle {
+            fill: red;
+            stroke: black;
+        }
+        text {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>График зависимости Hm от Bm</h1>
+    <svg class="chart" viewBox="0 0 600 400">
+        <!-- Оси -->
+        <line x1="50" y1="350" x2="550" y2="350" stroke="black"/> <!-- X ось -->
+        <line x1="50" y1="50" x2="50" y2="350" stroke="black"/> <!-- Y ось -->
+
+        <!-- Подписи осей -->
+        <text x="290" y="370">H_m (А/м)</text>
+        <text x="10" y="200" transform="rotate(-90, 10, 200)">B_m (Тл)</text>
+
+        <!-- Точки и кривая -->
+        <path d="M50,340 L100,320 C150,300 200,280 250,260 C300,240 350,220 400,200 C450,180 500,160 550,140" />
+        <!-- Подписи точек -->
+        <circle cx="100" cy="320" r="4" />
+        <circle cx="200" cy="280" r="4"/>
+    </svg>
+</body>
+</html>

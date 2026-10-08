@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<?xml-stylesheet type="text/css" href="first1.css"?>
+<!DOCTYPE books [
+<!ENTITY author "MAURICE LACROIX">
+<!ENTITY country "Швейцария">
+<!ENTITY title "11 954 Руб">
+<!ENTITY countryr "Испания">
+<!ENTITY authorr "Tous">
+<!ENTITY titile "1 301 Руб">
+<!ENTITY country "Швейцария">
+<!ENTITY author1 "CANDINO">
+<!ENTITY titles "1 895 Руб">
+<!ELEMENT books (watch, author, country, title, watch, author, country, title, watch, author, country, title, watch, author, country, title,watch, author, country, title, watch, author, country, title)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+] >
+<books>
+<watch>
+<author>&amp;</author>
+<country>&amp;</country>
+<title>&amp;</title>
+</watch>
+<watch>
+<author>&author;</author>
+<country>&country;</country>
+<title>&title;</title>
+</watch>
+<watch>
+<author>&author1;</author>
+<country>&country;</country>
+<title>&titles;</title>
+</watch>
+<watch>
+<author>&amp;</author>
+<country>&amp;</country>
+<title>&amp;</title>
+</watch>
+<watch>
+<author>&authorr;</author>
+<country>&countryr;</country>
+<title>&titile;</title>
+</watch>
+<watch>
+<author>&amp;</author>
+<country>&amp;</country>
+<title>&amp;</title>
+</watch>
+</books>

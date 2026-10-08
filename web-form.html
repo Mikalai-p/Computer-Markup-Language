@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Студенческая форма</title>
+    <style>
+        .form-control {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+    </style>
+
+    </head>
+<body>
+    <h1>Данные студента</h1>
+    <form action="/submit_student_data" method="post">
+        <label for="name">Имя студента:</label>
+        <input type="text" id="name" name="name" size="40" required />
+        <br/>
+        <label for="patronymic">Отчество студента:</label>
+        <input type="text" id="patronymic" name="patronymic" size="40" required />
+        <br/>
+        <label for="surname">Фамилия студента:</label>
+        <input type="text" id="surname" name="surname" size="40" required />
+        <br/>
+        <label for="email">Адрес электронной почты:</label>
+        <input type="email" id="email" name="email" size="40" required />
+        <br/>
+        <label for="phone">Контактный номер:</label>
+        <input type="tel" id="phone" name="phone" size="40" required />
+        <br/>
+        <h2>Какую социальную сеть вы используете?</h2>
+        <ul>
+            <li>
+                <input type="checkbox" id="vk" name="social_network" value="VK">
+                <label for="vk">VK</label>
+            </li>
+            <li>
+                <input type="checkbox" id="facebook" name="social_network" value="Facebook">
+                <label for="facebook">Facebook</label>
+            </li>
+            <li>
+                <input type="checkbox" id="instagram" name="social_network" value="Instagram">
+                <label for="instagram">Instagram</label>
+            </li>
+        </ul>
+        <button type="submit">Отправить данные</button>
+    </form>
+</body>
+</html>
