@@ -15,4 +15,4 @@ HTML, CSS, JavaScript
 Николай
 GitHub: https://github.com/Mikalai-p
 
-Учебный проект.
+Учебные работы и материалы.
